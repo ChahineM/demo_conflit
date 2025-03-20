@@ -5,6 +5,7 @@ echo "1) Café"
 echo "2) Thé"
 echo "3) Chocolat chaud"
 echo "4) Eau"
+echo "5) Jus"
 
 read -p "Votre choix : " choix
 
@@ -15,4 +16,3 @@ case $choix in
   4) echo "Voici votre eau." ;;
   *) echo "Choix invalide." ;;
 
-  
